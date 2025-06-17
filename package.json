@@ -16,11 +16,17 @@
   "license": "ISC",
   "author": "Deepak Dewatwal",
   "type": "commonjs",
-  "main": "index1.js",
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.15.2"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browsersList": [
+    "last 5 versions"
+  ]
 }

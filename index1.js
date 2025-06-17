@@ -1,20 +1,15 @@
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading1" }, "How are you"),
-    React.createElement("h2", { id: "heading2" }, "I am fine"),
-  ])
-); // this is react.createElement, through which we can write react in js , now in next videos we will se how jsx works
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const element = React.createElement(
-  "button",
+const parent = React.createElement(
+  "h1",
   {
-    onClick: () => alert("Clicked!"),
-    className: "btn",
+    id: "title",
+    key: "h1",
   },
-  "Click Me"
+  "Click Me just now"
 );
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
-console.log(parent);
+
