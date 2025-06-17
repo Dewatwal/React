@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react course",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/Dewatwal/React#readme",
+  "bugs": {
+    "url": "https://github.com/Dewatwal/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dewatwal/React.git"
+  },
+  "license": "ISC",
+  "author": "Deepak Dewatwal",
+  "type": "commonjs",
+  "main": "index1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
